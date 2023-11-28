@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Challenge</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="app-title">disuruh bang <span>CEN</span></h1>
+      <img src="img/list.png" alt="ga tau" height="100" width="100" />
+      <ul class="todo-list js-todo-list"></ul>
+      <!-- add the empty state here -->
+      <div class="empty-state">
+        <svg class="checklist"><use href="#checklist-icon"></use></svg>
+        <h2 class="empty-state__title">tambahin aja yang kalian mau bang</h2>
+        <p class="empty-state__description">mau apa klean hari ini?</p>
+      </div>
+      <!-- end -->
+      <form class="todo-form js-form">
+        <input
+          autofocus
+          type="text"
+          aria-label="Enter a new todo item"
+          placeholder="Input your schedule"
+          class="js-todo-input" />
+      </form>
+      <div class="input-js">
+        <button onclick="addTask()">Tambahin mau klean</button>
+      </div>
+      <div class="input-js1">
+        <button onclick="submitTask()">kumpulin yang klean mau</button>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="app.js"></script>
+    <!-- Script -->
+  </body>
+</html>

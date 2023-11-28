@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.empty-state {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.todo-form {
+  margin-top: 20px;
+}
+
+/* Gaya tambahan sesuai kebutuhan */
+.app-title {
+  color: #333;
+}
+
+.checklist {
+  fill: #333;
+  height: 40px;
+  width: 40px;
+}
+
+span {
+  color: red;
+}
+.input-js,
+.input-js1 {
+  margin: 20px;
+}
